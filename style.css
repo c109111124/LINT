@@ -1,0 +1,185 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    background: lightgreen;
+
+}
+
+.menu-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    position: relative;
+    margin-top: 5%;
+    left: 15%;
+
+}
+
+.menu-item input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.order-button {
+    display: block;
+    margin-top: 20px;
+    width: 100px;
+    height: 35px;
+    font-size: 16px;
+    color: black;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    left: 40%;
+    text-align: center;
+    line-height: 35px;
+}
+
+
+.order-button:hover {
+    background-color: #45a049;
+    color: white;
+}
+
+
+
+
+
+
+
+
+/*漢堡*/
+#removehamburger {
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    margin-left: 15%;
+    font-size: 50px;
+    font-weight: 600;
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+}
+
+#hamburgerquantity {
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    margin-left: 3%;
+    font-size: 50px;
+    font-weight: 600;
+    text-align: center;
+    line-height: 50px;
+}
+
+#addhamburger {
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    margin-left: 3%;
+    font-size: 50px;
+    font-weight: 600;
+    text-align: center;
+    line-height: 50px;
+    cursor: pointer;
+}
+
+/*薯條*/
+#removefrench {
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    margin-left: 15%;
+    font-size: 50px;
+    font-weight: 600;
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+}
+
+#frenchquantity {
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    margin-left: 3%;
+    font-size: 50px;
+    font-weight: 600;
+    text-align: center;
+    line-height: 50px;
+}
+
+#addfrench {
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    margin-left: 3%;
+    font-size: 50px;
+    font-weight: 600;
+    text-align: center;
+    line-height: 50px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+/*沙拉*/
+
+#removesala {
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    margin-left: 15%;
+    font-size: 50px;
+    font-weight: 600;
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+}
+
+#salaquantity {
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    margin-left: 3%;
+    font-size: 50px;
+    font-weight: 600;
+    text-align: center;
+    line-height: 50px;
+}
+
+#addsala {
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    margin-left: 3%;
+    font-size: 50px;
+    font-weight: 600;
+    text-align: center;
+    line-height: 50px;
+    cursor: pointer;
+}
+
+
+#time {
+    width: 400px;
+    height: 200px;
+    background-color: pink;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 50px;
+    font-weight: 600;
+    text-align: center;
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>線上點餐介面</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+    <h1>線上點餐介面</h1>
+    <form>
+      <div class="menu-item">
+        <img src="221.jpg" width="100" height="100">
+        <label for="item1" style="font-size: 35px; font-weight: 600;margin-left: 5%;">漢堡</label>
+        <div id="removehamburger">-</div>
+        <div id="hamburgerquantity"></div>
+        <div id="addhamburger">+</div>
+      </div>
+      <div class="menu-item">
+        <img src="222.jpg" width="100" height="100">
+        <label for="item2" style="font-size: 35px; font-weight: 600;margin-left: 5%;">薯條</label>
+        <div id="removefrench">-</div>
+        <div id="frenchquantity"></div>
+        <div id="addfrench">+</div>
+      </div>
+      <div class="menu-item">
+        <img src="223.jpg" width="100" height="100">
+        <label for="item3" style="font-size: 35px; font-weight: 600;margin-left: 5%;">沙拉</label>
+        <div id="removesala">-</div>
+        <div id="salaquantity"></div>
+        <div id="addsala">+</div>
+      </div>
+
+
+
+      <div class="order-button"  id="order" formaction=>開始點餐</div>
+
+
+
+    </form>
+  </div>
+
+      <div id="time"></div>
+</body>
+<script src="script.js"></script>
+
+</html>
